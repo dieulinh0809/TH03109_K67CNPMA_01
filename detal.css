@@ -1,0 +1,99 @@
+ #hot-products #product-box{
+    background: none;
+    padding: 0;
+}
+#product-gallery{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+#product-attributes-detail{
+    float: right;
+    width: 45%;
+}
+#product-name h2{
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#more-image ul{
+    padding: 0;
+}
+#more-image ul li{
+    float: left;
+    list-style: none;
+    border: 1px solid #dfdfdf;
+    width: 19%;
+    margin-left: 3%;
+}
+#more-image ul li:first-child{
+    margin-left: 0;
+}
+#more-image ul li img{
+    max-width: 100%;
+}
+#main-image{
+    border: lpx solid #dfdfdf;
+}
+#main-image img{
+    max-width: 100%;
+}
+#more-images{
+    box-sizing: border-box;
+}
+#product-price span{
+    font-size: 28px;
+    background: #e6e3e3;
+    padding: 0 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(213, 12, 12);
+}
+hr{
+    height: 1px;
+    border: 0;
+    background: #cfc8bc;
+    border-bottom: 1px solid #c9bcbc;
+}
+#product-sapo{
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+ul.products li  a.buy-now{
+    text-transform: uppercase;
+     text-decoration: none;
+     text-align: center;
+     display: block;
+     background-color: #ff1e00;
+     color: #fff;
+     padding: 10px 0px;
+     height: 50px;
+     width: 500px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+    margin-left: 0;
+}
+ul.products li:hover a.buy-now{
+    bottom: 100px;
+}
+#product-content{
+    padding: 0;
+}
+.buttonA{
+    color: #993300;
+    font-size: 13pt;
+    font-weight: bold;
+    width: 80%;
+    border: 1px #993300 dotted;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding-left: 0;
+  }
+  .buttonA:hover{
+    background-color:tomato ;
+  }
